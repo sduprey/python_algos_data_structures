@@ -12,7 +12,7 @@ from langchain.vectorstores import FAISS
 
 from dotenv import load_dotenv
 load_dotenv('.')  # take environment variables from .env (especially openai api key)
-api_key='*****'
+#api_key='**'
 os.environ["OPENAI_API_KEY"] = api_key
 st.title("SwissBorg: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
