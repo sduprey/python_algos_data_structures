@@ -4,9 +4,9 @@ setup.cfg
 # Extensions to ignore
 cryptotoolbox/crypotoolbox.egg-info/*
 data/*
+.idea
 .idea/*
 *.log
-*.xlsx
 *.pkl
 *.so
 *.html
